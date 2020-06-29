@@ -1,0 +1,142 @@
+html{font-family: 'Noto Sans KR', sans-serif; scroll-behavior: smooth; background-color:#ffffff }
+
+
+	nav{height: 0px; margin:0; position:sticky; top:0; 
+			width: 10%;}
+
+	ul{margin:0;}
+
+	li{list-style-type: none; 
+		width: 10%; height: 60px; text-align: center; line-height: 60px;
+		margin-bottom: 12px; margin-left: -130.5px; padding-top: 8px;}
+
+	li a{display: block; color: #ffffff; width: 60px; height: 60px; text-align: center;
+		background-color: #668872; text-decoration: none; font-size: 0.8em;
+		font-weight: 600; border-radius: 30px;}
+
+	li a:hover{background:#ffffff; color:#313131;  transition: all 0.4s;  }
+
+		.logo{height: 40px; line-height:40px; width: 100px;
+			float: left; text-align: center;}
+
+
+
+
+
+	body{margin: auto; width: 1280px;  }
+
+
+
+	header{height:750px; width: 1280px;
+				background: #313131;
+				margin-bottom: 0px; padding-top: 150px; }
+
+		.bg-header{background: url(./0_image/main.jpg); background-position: 0px -180px;
+			background-attachment: fixed;}
+
+		h1, h2{color: white; text-shadow: 4px 4px 4px black;}
+
+	h1{text-align: center; font-size: 3em; font-weight: 900;
+			margin-top: 0px; margin-bottom: 0}
+	h2{font-size:2em; font-weight: 500; text-align: center; margin:0; padding-top: 160px;}
+
+	h3{font-weight: 700; font-size: 2.4em; margin: 0;
+		padding-top: 340px;}
+	h4{ font-weight: 500; font-size: 1.8em; line-height: 1.5; letter-spacing: -1.3px;
+		width: 500px;}
+
+
+	p{font-weight: 400; font-size: 1.3em; line-height: 1.6;
+		letter-spacing: -1.3px; width: 400px;}
+
+
+	section{width: 100%; font-weight: 100; letter-spacing: 0px;
+				font-size: 0.9em; line-height: 1.5; height: 500px;}
+
+
+
+		.green{height: 962px;background-color: #668872; margin-bottom: 250px; margin-top: 250px;}
+		.yellow{height: 962px; background-color: #fde8da; margin-bottom: 250px; margin-top: 250px; }
+		.pink{height: 962px; background-color: #f5b5b6; margin-bottom: 250px; margin-top: 250px; }
+		.mix{height: 962px; background-color: white; margin-bottom: 250px; margin-top: 250px;}
+
+	
+
+		.hi{width: 100%; margin: auto; display: flex;
+				padding: 0px 0px; }
+
+	div{}
+		.col-1{margin: 0px 0px; background:; width: 315px; height: 500px; }
+		.col-2{margin: 0px 0px; background:; width: 635px; height: 500px; }
+		.col-3{margin: 0px 0px; background:; width: 955px; height: 500px; }
+		.col-4{margin: 0px 0px; background:; width: 1280px; height: 500px; }
+
+
+		#square{width: 200px; height: 200px; background: #fde8da; position: absolute;
+				left: 100px; border-radius: 100px; animation-timing-function: linear;
+				animation-name: leftright; animation-duration: 5s;
+				animation-iteration-count: infinite /*alternate*/;
+				}
+
+				@keyframes leftright{
+					from{left: -500px;}
+					to{left: 1600px;}
+								}
+
+		#circle{width: 200px; height: 200px; background: #668872; position: absolute;
+				left: 100px; border-radius: 100px; animation-timing-function: linear;
+				animation-name: leftright2; animation-duration: 5s;
+				animation-iteration-count: infinite /*alternate*/;
+				}
+
+				@keyframes leftright2{
+					from{left: 1600px;}
+					to{left: -500px;}
+								}
+
+
+		#triangle{width: 200px; height: 200px; background: #f5b5b6; position: absolute;
+				border-radius: 30px;
+				left: 100px; animation-timing-function: linear;
+				animation-name: rotate ; animation-duration: 8s;
+				animation-iteration-count: infinite /*alternate*/;
+				}
+
+				@keyframes rotate{
+					0%{}
+					100%{transform: rotate(360deg);}
+				}
+
+
+
+		#all{width: 100px; height: 100px; position: absolute; border-radius: 50px;
+			animation-name: all; animation-duration: 6s;
+			animation-iteration-count: infinite /*alternate*/; animation-timing-function: linear;}
+
+			@keyframes all{
+					0%{left: -500px; background: #fde8da;}
+					40%{background: #fde8da;}
+					50%{background: #668872;}
+					70%{background: #668872;}
+					80%{background: #f5b5b6;}
+					100%{left: 1600px; background: #f5b5b6;}
+								}
+
+
+
+
+		#window1{position: absolute; height:962px; margin-left: 100px;}
+		#background{position: absolute; height:100%; margin-left:180px;
+			margin-top: 180px;height: 600px; }
+		#window2{position: absolute; height:680px; margin-left: 100px; padding-top: 150px;}
+		#circle2{position: absolute; width: 1280px; height: 720px; padding-top: 100px;}
+
+	img{height: 500px;}
+
+
+
+
+
+	footer{margin-top: 500px; height:350px; background-color: #dcb6a2; padding-top: 50px;}
+	footer p{font-weight: 100; font-size: 0.5em; letter-spacing: 0px; padding-left: 460px;
+			text-align: left;}
